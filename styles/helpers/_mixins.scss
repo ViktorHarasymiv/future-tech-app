@@ -24,19 +24,31 @@
   
     justify-content: center;
     align-items: center;
-  }
+}
   
   @mixin abs-center {
     position: absolute;
     top: 50%;
     left: 50%;
     translate: -50% -50%;
-  }
+}
+
+  @mixin abs-x {
+    position: absolute;
+    left: 50%;
+    translate: -50%;
+}
+
+  @mixin abs-y {
+    position: absolute;
+    top: 50%;
+    translate: 0 -50%;
+}
   
   @mixin square($size) {
     width: $size;
     height: $size;
-  }
+}
   
   @mixin visually-hidden {
     position: absolute !important;
@@ -49,4 +61,4 @@
     clip-path: inset(100%) !important;
     clip: rect(0 0 0 0) !important;
     overflow: hidden !important;
-  }
+}

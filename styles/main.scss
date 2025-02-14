@@ -6,9 +6,23 @@
 
 
 @use 'blocks/header';
+@use 'blocks/footer';
 
 
+@use 'blocks/logo';
 @use 'blocks/burger-button';
 @use 'blocks/button';
 @use 'blocks/icon';
-@use 'blocks/logo';
+@use 'blocks/soc1als';
+@use 'blocks/badge';
+
+@use 'blocks/metrics';
+@use 'blocks/team';
+@use 'blocks/resourses-preview';
+@use 'blocks/advantages-card';
+@use 'blocks/hero';
+
+// .header,
+// .footer {
+//     display: none !important;
+// }
