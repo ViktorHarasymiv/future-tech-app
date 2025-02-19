@@ -204,7 +204,7 @@ svg * {
   src: url("./../fonts/KumbhSans-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
-  font-display: swap;
+  font-display: swape;
 }
 @font-face {
   font-family: "Kumbh Sans";
@@ -716,7 +716,7 @@ button[aria-label]::before {
   }
 }
 .icon--yellow-arrow::after {
-  background-image: url("./../../icons/arrow-right-yellow.svg");
+  background-image: url("/icons/arrow-right-yellow.svg");
 }
 
 .soc1als__list {
@@ -907,7 +907,7 @@ button[aria-label]::before {
   translate: 0 -50%;
   content: "";
   right: 0;
-  background: url("../../icons/arrow-top-right-black.svg") center no-repeat var(--color-accent);
+  background: url("/icons/arrow-top-right-black.svg") center no-repeat var(--color-accent);
   border-radius: 50%;
 }
 .advantages-card__details {
